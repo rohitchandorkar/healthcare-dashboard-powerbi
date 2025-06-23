@@ -16,26 +16,6 @@ https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2
 
 ## 📊 Project Features
 
-Single-screen Healthcare Dashboard focused on patient and appointment metrics.
-
-Visual KPIs showing Total Patients, Active Cases, Appointments, and Doctor Count.
-
-Bar and Column Charts showing:
-
-Appointments by Department
-
-Patients per Doctor
-
-Appointment Trends over time
-
-Basic Time Trends visualized using line graphs (if present).
-
-
-
-Basic Power BI Theme without custom color palette.
-
-Flat or Minimal Data Model — likely no complex relationships.
-
 - Interactive Power BI dashboard
 - Maps
 - Toggel Button  
