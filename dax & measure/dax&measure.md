@@ -1,4 +1,4 @@
- **HealthCare provider Power BI – DAX Measures**
+## **HealthCare provider Power BI – DAX Measures**
 
 
 🧮 **Total Aggregations**
@@ -61,5 +61,51 @@ Average Room Charges =
         visits,
         visits[Room Charges(daily rate)] * visits[Lenght of Stay]
     )
+
+---
+
+🧍 Patient and Visit Statistics
+
+Average Patient Score = 
+    AVERAGE(visits[Patient Satisfaction Score])
+
+Average Lenght of Stay = 
+    AVERAGE(visits[Lenght of Stay])
+
+---
+
+📊 Percentage Metrics (Relative Contributions)
+
+% Procedure = 
+    DIVIDE(
+        [Total Billing Amount],
+        CALCULATE(
+            [Total Billing Amount],
+            ALL(procedures[Procedure])
+        )
+    )
+
+% Department = 
+    DIVIDE(
+        [Total Billing Amount],
+        CALCULATE(
+            [Total Billing Amount],
+            ALL(departments[Department])
+        )
+    )
+
+---
+
+
+📌 Slicer/Selection Helper Measures
+
+Active Department = 
+    SELECTEDVALUE(departments[Department])
+
+---
+
+🧪 Other Measures
+
+Blank Measure = 0
 
 ---
