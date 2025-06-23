@@ -1,5 +1,7 @@
 ## **HealthCare provider Power BI – DAX Measures**
 
+---
+
 
 🧮 **Total Aggregations**
 
