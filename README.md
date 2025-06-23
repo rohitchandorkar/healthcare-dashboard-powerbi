@@ -58,7 +58,7 @@ Grouped DAX measures include:
 ## 🛠️ How to Use
 1. Clone/download the repository  
 2. Open `HealthCare.pbix` in Power BI Desktop  
-3. Interact using slicers, charts, filters  
+3. Interact using slicers, charts,  
 4. Check DAX via Model view
 
 ---
@@ -76,7 +76,8 @@ Health-Care/
 ---
 
 ## 📷 Preview
-![spotify ](https://github.com/user-attachments/assets/cf0ef215-4f3f-4e5e-80ac-e58a0dc93e7c)
+![Dashboard-Light-theme](https://github.com/user-attachments/assets/99daecde-3bbe-44fe-b8d6-51573f4b15f1)
+
 
 ---
   
