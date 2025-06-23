@@ -1,52 +1,90 @@
-📊 Project Overview
-The Healthcare Dashboard is designed to help healthcare professionals, administrators, and analysts make data-driven decisions. It showcases KPIs such as:
 
-Patient Admission Trends
+# 🏥 Healthcare Analytics Dashboard – Power BI Project
 
-Department-wise Performance
+---
 
-Bed Occupancy Rate
+## Description
 
-Average Length of Stay
+This Power BI project visualizes and analyzes healthcare-related data to derive meaningful insights into hospital performance, patient demographics, treatment types, and operational efficiency.
+---
 
-Treatment Costs and Revenue
+## Dashboard Link :-
+https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2e8512433c309542a724?experience=power-bi
 
-Doctor Performance Metrics
+---
 
-🛠️ Tools & Technologies Used
-Power BI – For interactive dashboard development
+## 📊 Project Features
+- 📊 Interactive Power BI dashboard
+- 🎵 Analysis of albums, artists, and tracks
+- 📅 Year-over-year listening trends
+- 🔥 Heatmap for peak listening hours
+- 📈 Drill-through functionality for detailed insights
+- 🎵 Top Tracks and Artists Analysis  
+- 📊 Custom KPIs and Dynamic Visuals
+- 📈 DAX-Based Calculations for Trends and Benchmarks
+- 📉 Interactive Dashboard
+- 🎛️ Slicers, Cards, Donut Charts, Maps, Area Charts 
 
-Power Query – Data transformation and cleansing
+---
+  
+## 🧩 Tools & Technologies Used
+- Power BI  
+- DAX  
+- Power Query  
+- Excel (data source)  
+- Draw.io / Excalidraw (sketches)  
+- PowerPoint (presentation)  
+- GitHub (version control)
 
-DAX (Data Analysis Expressions) – For custom measures and KPIs
+ ---
+   
+## 📊  Data Modeling
+- Star schema design with Fact and Dimension tables  
+- Time intelligence applied on album release dates  
+- Cleaned using Power Query and Excel
 
-Excel/CSV – As data source
+---
+ 
+## 📈  DAX Measures
+Grouped DAX measures include:
+- YOY & PY album KPIs  
+- Track & album popularity metrics  
+- Dynamic titles and filters
+➡️ Full list in `DAX_Measures.md`
 
-PowerPoint / draw.io – For sketches and documentation
+---
 
-📌 Features
-Clean, intuitive light-themed design
+ ## 🎨  Sketches & Design
+- Dashboard layout wireframes  
+- Data model diagrams  
+- Tools used: Excalidraw
 
-Dynamic filtering by departments, date, patient types, etc.
+  ---
 
-Drill-down capability to explore doctor-wise and ward-wise data
+## 🛠️ How to Use
+1. Clone/download the repository  
+2. Open `Spotify Analysis.pbix` in Power BI Desktop  
+3. Interact using slicers, charts, filters  
+4. Check DAX via Model view
 
-Custom DAX measures for hospital KPIs
+---
+   
+## 📁 Folder Structure
+Spotify-Analysis/
 
-Responsive slicers and visual-level filters
+├── docs/                           # Sketches and diagrams  
+├── data/                           # CSV files  
+├── Spotify Analysis.pbix           # Power BI file  
+├── DAX_Measures.md                 # DAX grouped documentation  
+├── Spotify_Presentation.pptx  
+└── README.md
 
-👤 Author – Rohit Chandorkar
-💻 Laptop Specs: [Add your config if you'd like]
-🔗 GitHub
-🔗 Portfolio
-🔗 LinkedIn
+---
 
-📁 Files Included
-.pbix Power BI report file
+## 📷 Preview
+![spotify ](https://github.com/user-attachments/assets/cf0ef215-4f3f-4e5e-80ac-e58a0dc93e7c)
 
-Screenshots of dashboards (optional)
-
-Sketch or wireframe design (optional)
-
-Project presentation or PDF (optional)
-
+---
+  
+11. ## License
+MIT License – see LICENSE file for details.
