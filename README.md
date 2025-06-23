@@ -4,8 +4,9 @@
 ---
 
 ## Description
-
 This Power BI project visualizes and analyzes healthcare-related data to derive meaningful insights into hospital performance, patient demographics, treatment types, and operational efficiency.
+
+
 ---
 
 ## Dashboard Link :-
@@ -14,16 +15,34 @@ https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2
 ---
 
 ## 📊 Project Features
-- 📊 Interactive Power BI dashboard
-- 🎵 Analysis of albums, artists, and tracks
-- 📅 Year-over-year listening trends
-- 🔥 Heatmap for peak listening hours
-- 📈 Drill-through functionality for detailed insights
-- 🎵 Top Tracks and Artists Analysis  
-- 📊 Custom KPIs and Dynamic Visuals
-- 📈 DAX-Based Calculations for Trends and Benchmarks
-- 📉 Interactive Dashboard
-- 🎛️ Slicers, Cards, Donut Charts, Maps, Area Charts 
+
+Single-screen Healthcare Dashboard focused on patient and appointment metrics.
+
+Visual KPIs showing Total Patients, Active Cases, Appointments, and Doctor Count.
+
+Bar and Column Charts showing:
+
+Appointments by Department
+
+Patients per Doctor
+
+Appointment Trends over time
+
+Basic Time Trends visualized using line graphs (if present).
+
+
+
+Basic Power BI Theme without custom color palette.
+
+Flat or Minimal Data Model — likely no complex relationships.
+
+- Interactive Power BI dashboard
+- Maps
+- Toggel Button  
+- Custom KPIs and Dynamic Visuals
+- DAX-Based Calculations for Average and Total
+- Bar-Chart, Cards, Maps
+- Minimal Data Model — likely no complex relationships. 
 
 ---
   
@@ -31,8 +50,7 @@ https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2
 - Power BI  
 - DAX  
 - Power Query  
-- Excel (data source)  
-- Draw.io / Excalidraw (sketches)  
+- csv (data source)  
 - PowerPoint (presentation)  
 - GitHub (version control)
 
@@ -40,24 +58,17 @@ https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2
    
 ## 📊  Data Modeling
 - Star schema design with Fact and Dimension tables  
-- Time intelligence applied on album release dates  
 - Cleaned using Power Query and Excel
 
 ---
  
 ## 📈  DAX Measures
 Grouped DAX measures include:
-- YOY & PY album KPIs  
-- Track & album popularity metrics  
+- Average  
+- Total 
 - Dynamic titles and filters
 ➡️ Full list in `DAX_Measures.md`
 
----
-
- ## 🎨  Sketches & Design
-- Dashboard layout wireframes  
-- Data model diagrams  
-- Tools used: Excalidraw
 
   ---
 
