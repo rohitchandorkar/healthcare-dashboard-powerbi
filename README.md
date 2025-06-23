@@ -44,13 +44,13 @@ https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2
  
 ## 📈  DAX Measures
 Grouped DAX measures include:
-- Average  
+- Average 
 - Sum
 - Selectedvalue
 - DistinctCount
 - Divide 
 - Dynamic titles and filters
-➡️ Full list in `DAX_Measures.md`
+➡️ Full list in `dax & measures.md`
 
 
   ---
@@ -69,8 +69,7 @@ Health-Care/
 ├── docs/                           # Sketches and diagrams  
 ├── data/                           # CSV files  
 ├── HealthCare.pbix                 # Power BI file  
-├── DAX_Measures.md                 # DAX grouped documentation  
-├── Spotify_Presentation.pptx  
+├── dax & measure.md                # DAX grouped documentation  
 └── README.md
 
 ---
