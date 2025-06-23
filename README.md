@@ -17,11 +17,11 @@ https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2
 ## 📊 Project Features
 
 - Interactive Power BI dashboard
-- Maps
+- Light-theme, Dark-theme
 - Toggel Button  
 - Custom KPIs and Dynamic Visuals
 - DAX-Based Calculations for Average and Total
-- Bar-Chart, Cards, Maps
+- Bar-Chart, Cards, Azure-Maps, Slicer
 - Minimal Data Model — likely no complex relationships. 
 
 ---
@@ -45,7 +45,10 @@ https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2
 ## 📈  DAX Measures
 Grouped DAX measures include:
 - Average  
-- Total 
+- Sum
+- Selectedvalue
+- DistinctCount
+- Divide 
 - Dynamic titles and filters
 ➡️ Full list in `DAX_Measures.md`
 
@@ -54,18 +57,18 @@ Grouped DAX measures include:
 
 ## 🛠️ How to Use
 1. Clone/download the repository  
-2. Open `Spotify Analysis.pbix` in Power BI Desktop  
+2. Open `HealthCare.pbix` in Power BI Desktop  
 3. Interact using slicers, charts, filters  
 4. Check DAX via Model view
 
 ---
    
 ## 📁 Folder Structure
-Spotify-Analysis/
+Health-Care/
 
 ├── docs/                           # Sketches and diagrams  
 ├── data/                           # CSV files  
-├── Spotify Analysis.pbix           # Power BI file  
+├── HealthCare.pbix                 # Power BI file  
 ├── DAX_Measures.md                 # DAX grouped documentation  
 ├── Spotify_Presentation.pptx  
 └── README.md
