@@ -28,8 +28,7 @@ Total Patient =
     DISTINCTCOUNT(visits[Patient ID])
 
 
-
-===============================================================
+---
 
 💵 **Derived Financial Metrics**
 
@@ -62,3 +61,5 @@ Average Room Charges =
         visits,
         visits[Room Charges(daily rate)] * visits[Lenght of Stay]
     )
+
+---
