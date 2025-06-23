@@ -49,6 +49,7 @@ Grouped DAX measures include:
 - Selectedvalue
 - DistinctCount
 - Divide 
+- Date Table
 - Dynamic titles and filters
 ➡️ Full list in `dax & measures.md`
 
