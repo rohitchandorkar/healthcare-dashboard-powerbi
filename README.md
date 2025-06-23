@@ -77,5 +77,5 @@ Spotify-Analysis/
 
 ---
   
-11. ## License
+## License
 MIT License – see LICENSE file for details.
