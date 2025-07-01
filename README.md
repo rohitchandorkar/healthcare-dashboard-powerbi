@@ -10,7 +10,7 @@ This Power BI project visualizes and analyzes healthcare-related data to derive 
 ---
 
 ## Dashboard Link :-
-https://app.powerbi.com/groups/me/reports/c5ceabe0-ade0-45d7-a526-8f0e6537ea69/2e8512433c309542a724?experience=power-bi
+https://app.powerbi.com/groups/me/reports/275bd74b-0f5b-4841-900f-386b26a31fd8/2e8512433c309542a724?experience=power-bi
 
 ---
 
